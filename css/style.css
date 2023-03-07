@@ -167,8 +167,9 @@ body {
     color: var(--f2-color);
 }
 .about-me{
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     color: var(--main-color);
+    margin-bottom: 3rem;
 }
 .about-me::after {
     content: "";
@@ -176,12 +177,19 @@ body {
     height: 1px;
     background: var(--main-color);
     position: absolute;
-    top: 12rem !important;
+    top: 9.7rem !important;
     left: 20rem;
 }
 .about-me p{
     word-spacing: .1rem;
 }
+.skill li::before {
+    content: "▹";
+    color: var(--main-color);
+    font-size: var(--extra-sm);
+    position: relative;
+    top: 3px;
+  }
 /* footer-section */
 .footer-text {
     display: flex;
