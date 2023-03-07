@@ -25,13 +25,16 @@ body {
     --big-font: 10rem;
     --mid-font: 5rem;
 }
-.offcanvas-header{
+
+.offcanvas-header {
     background: var(--main-color);
 }
-.offcanvas-body{
+
+.offcanvas-body {
     background: var(--bg-color);
     color: var(--font-color);
 }
+
 .navbar {
     background: transparent;
     color: var(--font-color);
@@ -159,45 +162,59 @@ body {
 
 /*about-section*/
 
-.about-section, .contact-section, .home-section {
+.about-section,
+.contact-section,
+.home-section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
     color: var(--f2-color);
 }
-.about-me{
+
+.title {
     font-size: 2.5rem;
     color: var(--main-color);
     margin-bottom: 3rem;
 }
-.about-me::after {
+
+.title::after {
     content: "";
     width: 21.5rem;
     height: 1px;
     background: var(--main-color);
     position: absolute;
-    top: 9.7rem !important;
+    top: 6.7rem !important;
     left: 20rem;
 }
-.about-me p{
+
+.title p {
     word-spacing: .1rem;
 }
+
 .skill li::before {
     content: "▹";
     color: var(--main-color);
     font-size: var(--extra-sm);
     position: relative;
     top: 3px;
-  }
-  /* .contact-section */
-  .contact-section .btn {
+}
+
+.about-section p {
+    font-size: 1.1rem;
+}
+/* .contact-section */
+.contact-section .btn {
     border: 1px solid var(--main-color);
     color: #fff;
     width: 10rem;
     padding: .7rem;
     font-weight: 500;
-  }
+}
+/* porject-section */
+.folder{
+    font-size: 3rem;
+}
 /* footer-section */
 .footer-text {
     display: flex;
@@ -229,22 +246,27 @@ body {
     #offcanvas-btn {
         display: block;
     }
+
     .about .name h2 {
         font-size: var(--sm-font);
     }
-    .about .work h2{
+
+    .about .work h2 {
         font-size: var(--sm-font);
     }
-    #about-sm-dv{
+
+    #about-sm-dv {
         flex-direction: column;
     }
-    .about-section{
-        margin-top: 10rem;
+
+    .about-section {
+        margin-top: 15rem;
     }
-    .about-me::after {
-        width: 10.5rem;
-        top: 7.7rem !important;
-        left: 13rem;
+
+    .title::after {
+        width: 13.5rem;
+        top: 11.2rem !important;
+        left: 12rem;
     }
 }
 
