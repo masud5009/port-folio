@@ -227,6 +227,17 @@ body {
     .about .work h2{
         font-size: var(--sm-font);
     }
+    #about-sm-dv{
+        flex-direction: column;
+    }
+    .about-section{
+        margin-top: 10rem;
+    }
+    .about-me::after {
+        width: 10.5rem;
+        top: 7.7rem !important;
+        left: 13rem;
+    }
 }
 
 @media (max-width:768px) {
