@@ -85,12 +85,12 @@ body {
     font-size: 1.1rem;
 }
 
-.home {
+/* .home {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
-}
+} */
 
 .home-child {
     display: flex;
@@ -159,7 +159,7 @@ body {
 
 /*about-section*/
 
-.about-section {
+.about-section, .contact-section, .home-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,6 +189,14 @@ body {
     font-size: var(--extra-sm);
     position: relative;
     top: 3px;
+  }
+  /* .contact-section */
+  .contact-section .btn {
+    border: 1px solid var(--main-color);
+    color: #fff;
+    width: 10rem;
+    padding: .7rem;
+    font-weight: 500;
   }
 /* footer-section */
 .footer-text {
