@@ -217,7 +217,7 @@ body {
     border: 1px solid #112240;
     cursor: pointer;
     padding: 1.5rem .5rem;
-    min-height: 45vh;
+    height: 55vh;
     transition: ease .50s;
 }
 .card:hover{
